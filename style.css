@@ -15,7 +15,7 @@ header {
   position: relative;
   backdrop-filter: brightness(20%);
 }
-.header-inner{
+.header-inner {
   background-color: rgba(0, 0, 0, 0.511);
   width: 100%;
   height: 90vh;
@@ -23,7 +23,7 @@ header {
 #check {
   display: none;
 }
-#check:checked ~ ul {
+#check:checked~ul {
   left: 0;
 }
 #check-button {
@@ -81,7 +81,7 @@ nav ul li a:hover {
 #banner-text h1 {
   font-size: 5rem;
   text-align: center;
-  font-weight:200;
+  font-weight: 200;
   color: #fff;
 }
 #banner-text p {
@@ -162,12 +162,12 @@ img {
   align-items: center;
   gap: 1rem;
 }
-.about-us_red-text{
+.about-us_red-text {
   width: 13rem;
   text-align: right;
   font-size: 35px;
   color: red;
-  line-height: 1.1; 
+  line-height: 1.1;
   font-weight: 200;
 }
 .about-us_para {
@@ -227,12 +227,12 @@ footer {
     height: 85vh;
   }
 }
-.header-inner{
+.header-inner {
   background-color: rgba(0, 0, 0, 0.511);
   width: 100%;
   height: 85vh;
 }
-@media (max-width: 839px){
+@media (max-width: 839px) {
   nav ul li a {
     font-size: 1rem;
   }
@@ -287,6 +287,7 @@ footer {
   #banner-text h1 {
     font-size: 4rem;
   }
+
   #banner-text p {
     margin-top: 0.5rem;
     font-size: 0.7rem;
@@ -296,11 +297,11 @@ footer {
   header {
     height: 80vh;
   }
-.header-inner{
-  background-color: rgba(0, 0, 0, 0.511);
-  width: 100%;
-  height: 80vh;
-}
+  .header-inner {
+    background-color: rgba(0, 0, 0, 0.511);
+    width: 100%;
+    height: 80vh;
+  }
 }
 @media (max-width: 540px) {
   #stats {
@@ -312,13 +313,14 @@ footer {
   }
 }
 @media (max-width: 505px) {
-  nav ul li{
+  nav ul li {
     line-height: 2.5rem;
   }
+
   header {
     height: 65vh;
   }
-  .header-inner{
+  .header-inner {
     background-color: rgba(0, 0, 0, 0.511);
     width: 100%;
     height: 65vh;
@@ -337,7 +339,7 @@ footer {
   header {
     height: 65vh;
   }
-  .header-inner{
+  .header-inner {
     background-color: rgba(0, 0, 0, 0.511);
     width: 100%;
     height: 65vh;
@@ -358,7 +360,7 @@ footer {
   .about-us_para {
     width: 20rem;
   }
-  footer span{
+  footer span {
     font-size: 0.6rem;
   }
 }
@@ -366,7 +368,7 @@ footer {
   header {
     height: 60vh;
   }
-  .header-inner{
+  .header-inner {
     background-color: rgba(0, 0, 0, 0.511);
     width: 100%;
     height: 60vh;
